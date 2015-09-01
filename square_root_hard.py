@@ -18,7 +18,7 @@ def squareroot():
         while round(((y*y)-x), 4) != 0:
             y = ((y+(x/y))/2)
             counter+=1
-            print (counter, y)
+            print ("iteration # {}: Guess = {}".format(counter, y))
 
 
 
