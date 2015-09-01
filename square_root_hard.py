@@ -5,10 +5,10 @@ def squareroot():
         y = 1
 
     except ValueError:
-         print("That is not a number higher than 0")
+         print("ERROR: That is not a number higher than 0")
          exit()
     if int(x) <= 0:
-        print("That is not a number higher than 0")
+        print("ERROR: That is not a number higher than 0")
         exit()
     else:
         counter = 0
