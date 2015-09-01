@@ -6,7 +6,6 @@ def squareroot():
     while round(((y*y)-x), 4) != 0:
         y = ((y+(x/y))/2)
 
-        #print(y)
-    #return print(y)
+        
     print("The squareroot of {} is {}".format(x,y))
 squareroot()
