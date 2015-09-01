@@ -1,8 +1,12 @@
 
-def square_root(x)
 
-x = int(input("Please enter a positive number: "))
+def squareroot():
+    y = 1
+    x = int(input("Please enter a even number: "))
+    while round(((y*y)-x), 2) != 0:
+        y = ((y+(x/y))/2)
 
-((y+(x/y))/2)
 
-print("The square root of {} is {}")
+    return print(y)
+
+squareroot()
