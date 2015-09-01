@@ -7,6 +7,6 @@ def squareroot():
         y = ((y+(x/y))/2)
 
 
-    return print(y)
-
+    #return print(y)
+    print("The squareroot of {} is {}".format(x,y))
 squareroot()
